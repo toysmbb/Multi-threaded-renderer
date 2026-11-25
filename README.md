@@ -2,6 +2,8 @@
 
 An OpenGL 3.3 renderer written in C++20 that moves its heaviest per-frame computation onto a custom thread pool. The particle simulation is split across multiple CPU threads using a custom thread pool, and the thread count can be changed while the program is running to see how it affects performance.
 
+[![Demo video](https://youtu.be/GRPgUKxsPCo)
+
 ## About
 The goal of this project is to show how multithreading can improve performance in a real-time renderer.
 
