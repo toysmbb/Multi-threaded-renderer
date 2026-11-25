@@ -30,3 +30,17 @@
 *.exe
 *.out
 *.app
+
+# Build output
+build/
+out/
+cmake-build-*/
+CMakeUserPresets.json
+
+# IDEs
+.vs/
+.vscode/
+.idea/
+*.ipch
+*.suo
+*.user
